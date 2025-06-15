@@ -21,7 +21,7 @@ defmodule Gmail.Mixfile do
   defp deps do
     [
       {:poolboy, "~> 1.5"},
-      {:httpoison, "~> 1.1"},
+      {:httpoison, "~> 2.0"},
       {:poison, "~> 2.1 or ~> 3.1"},
       {:mock, "~> 0.1", only: :test},
       {:excoveralls, "~> 0.5", only: :test},
